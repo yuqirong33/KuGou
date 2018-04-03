@@ -1,0 +1,14 @@
+#singer{
+    padding-top:8rem;
+}
+#singer .border {
+    width:90%;
+    list-style: none;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    border-width: 1px 2px;
+    margin: 10px auto;
+}
+#singer .am-list my-list{
+    border-radius: 6px;
+}

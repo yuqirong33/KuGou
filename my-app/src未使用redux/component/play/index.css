@@ -1,0 +1,36 @@
+#root{
+    overflow: hidden;
+}
+/* #play {
+    
+    padding-top:100px;
+} */
+#play:-webkit-scrollbar{
+    display: none;
+}
+.hxcb{
+    height: 50px;
+    width:20%;
+}
+#bg{
+    filter: blur(10px);
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: 35% 50%;
+    z-index: -1;
+}
+#play .playImage{
+    width:10rem;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    display: block;
+    margin: 5rem auto;
+}
+
+#audio{
+    display: block;
+    margin: 0 auto;
+}
